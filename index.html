@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flexbox Property Visualizer</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="flex-controls">
+            <div class="css-styling-unit">
+                <h3>display:</h3>
+                <button>block</button>
+                <button style="color: green;">flex</button>
+            </div>
+            <div class="css-styling-unit">
+                <h3>flex-direction:</h3>
+                <button style="color: green;">row (default)</button>
+                <button>row-reverse</button>
+                <button>column</button>
+                <button>column-reverse</button>
+            </div>
+            <div class="css-styling-unit">
+                <h3>flex-grow: (box 7 only)</h3>
+                <button style="color: green;">0 (default)</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+            </div>
+            <div class="css-styling-unit">
+                <h3>flex-shrink: (box 7 only)</h3>
+                <button style="color: green;">1 (default)</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+            </div>
+            <div class="css-styling-unit">
+                <h3>flex-wrap:</h3>
+                <button style="color: green;">nowrap (default)</button>
+                <button>wrap</button>
+                <button>wrap-reverse</button>
+            </div>
+            <div class="css-styling-unit">
+                <h3>justify-content:</h3>
+                <button style="color: green;">flex-start (default)</button>
+                <button>flex-end</button>
+                <button>center</button>
+                <button>space-between</button>
+                <button>space-around</button>
+                <button>space-evenly</button>
+            </div>
+            <div class="css-styling-unit">
+                <h3>align-items:</h3>
+                <button>flex-start</button>
+                <button>flex-end</button>
+                <button>center</button>
+                <button style="color: green;">stretch (default)</button>
+                <button>baseline</button>
+            </div>
+            <div class="css-styling-unit">
+                <h3>align-content:</h3>
+                <button>flex-start</button>
+                <button>flex-end</button>
+                <button>center</button>
+                <button style="color: green;">stretch (default)</button>
+                <button>space-between</button>
+                <button>space-around</button>
+            </div>
+        </div>
+       <div id="flexy" class="flex-parent">
+            <!-- So what do I wanna put in here... some fuckin boxes -->
+            <div class="flex-child one">1</div>
+            <div class="flex-child two">2</div>
+            <div class="flex-child three">3</div>
+            <div class="flex-child four">4</div>
+            <div class="flex-child five">5</div>
+            <div class="flex-child six">6</div>
+            <div id="seven" class="flex-child seven">7</div>
+            <div class="flex-child eight">8</div>
+       </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
